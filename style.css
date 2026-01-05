@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pretendard&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Pretendard', sans-serif;
+  background-color: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+header {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #334155;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+main {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.post-list article {
+  margin-bottom: 2.5rem;
+}
+
+.post-list h2 a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.post-list h2 a:hover {
+  text-decoration: underline;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0.3rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #64748b;
+  border-top: 1px solid #334155;
+}
